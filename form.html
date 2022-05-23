@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container-form">
+      <form id="form" class="form">
+        <h2>Register With Us</h2>
+        <div class="form-div">
+          <label for="name">Name</label>
+          <input type="text" id="first-name" placeholder="Enter name" />
+          <small>Error message</small>
+        </div>
+        <div class="form-div">
+          <label for="surname">Surname</label>
+          <input type="text" id="surname" placeholder="Enter surname" />
+          <small>Error message</small>
+        </div>
+        <div class="form-div">
+          <label for="delivery_date">Delivery date:</label>
+          <input id="delivery_date" type="date" name="delivery_date">
+          <small>Error message</small>
+        </div>
+        <div class="form-div">
+          <label for="address">Street</label>
+          <input type="text" id="address" placeholder="Enter address" />
+          <small>Error message</small>
+        </div>
+        <div class="form-div numbers">
+          <div class="house">
+            <label for="house-number">House number</label>
+            <input type="text" id="house-number" placeholder="Enter house number" />
+            <small>Error message</small>
+          </div>
+         <div class="flat">
+          <label for="flat-number">Flat number</label>
+          <input type="text" id="flat-number" placeholder="Enter flat number" />
+          <small>Error message</small>
+         </div>
+        </div>
+        <div class="form-div payment">
+          <input type="radio" id="cash" name="pay" value="cash">
+          <label for="cash">Cash</label>
+          <input type="radio" id="card" name="pay" value="card">
+          <label for="card">Card</label>
+          <small>Error message</small>
+        </div>
+        <button id="btn" type="submit" disabled>Submit</button>
+      </form>
+    </div>
+
+
+
+    <div class="back-to-home-page">
+      <a href="./index.html">Home Page</a>
+    </div>
+    <script src="./form.js"></script>
+  </body>
+</html>

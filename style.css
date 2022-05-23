@@ -202,9 +202,6 @@
   --error-color: #e74c3c;
 }
 
-* {
-  box-sizing: border-box;
-}
 
 body {
   position: relative;
